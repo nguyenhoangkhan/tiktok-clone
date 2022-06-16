@@ -1,0 +1,46 @@
+.menu-list {
+    width: 230px;
+    .menu-item {
+        padding: 11px 16px;
+        border-radius: 0;
+        justify-content: flex-start;
+        margin-left: 0;
+        line-height: 1.8rem;
+        font-size: 15px;
+        font-weight: 600;
+        width: 100%;
+        color: var(--text-color);
+        &.separate {
+            border-top: 1px solid rgba(22, 24, 35, 0.12);
+        }
+        &:hover {
+            background-color: rgba(22, 24, 35, 0.03);
+        }
+    }
+}
+.menu-popper {
+    padding: 8px 0;
+}
+// Header
+.header {
+    margin-top: -8px;
+    position: relative;
+    height: 50px;
+}
+.menu-body {
+    overflow-y: auto;
+    max-height: 590px;
+}
+
+.back-btn {
+    width: 50px;
+    height: 100%;
+    background-color: transparent;
+    cursor: pointer;
+}
+.header-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}

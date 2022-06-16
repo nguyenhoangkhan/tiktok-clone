@@ -1,0 +1,15 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 1150px;
+    max-width: 100%;
+    display: flex;
+    padding: 0 24px;
+    margin-top: var(--default-layout-header-height);
+}
+.content {
+    flex: 1;
+}
